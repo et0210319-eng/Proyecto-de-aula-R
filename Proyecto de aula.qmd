@@ -1,0 +1,376 @@
+---
+title: "Proyecto de aula"
+author: "Torres-Herrera Esteban Andres- C.C. 1002468519"
+format:
+  html:
+    toc: true
+    code-fold: true
+    self-contained: true
+editor: visual
+lang: es
+bibliography: references.bib
+execute:
+  echo: false
+  message: false
+  warning: false
+---
+
+## ESTADO DE CONOCIMIENTO DE ROEDORES EN EL CARIBE COLOMBIANO
+
+## INTRODUCCIÓN
+
+Los roedores (orden Rodentia) representan el segundo orden con mayor diversidad de especies en Colombia [@ramírez-chaves2022] y aunque la geografía de la región Caribe Colombiana permite la diversificación del grupo por la variedad de ecosistemas que presenta, incluyendo bosques secos tropicales, sabanas, humedales, manglares y zonas montañosas de estribación [@rangel-ch.2015], la información existente es escasa, lo que dificulta conocer con precisión su riqueza, distribución geográfica y composición taxonómica [@solari2013]. Los roedores son considerados indicadores sensibles del estado ambiental debido a su alta tasa reproductiva, su dependencia de recursos vegetales específicos y su rápida respuesta ante cambios en la estructura del hábitat [@saadsolimandesoky2019]. Las fluctuaciones en su abundancia y composición de especies reflejan con frecuencia perturbaciones antrópicas como la contaminación, el cambio en el uso del suelo o la fragmentación de los ecosistemas [@fischer2007].
+
+La mastozoología en Colombia se ha concentrado en regiones andinas, donde la accesibilidad y la presencia de instituciones académicas han favorecido el desarrollo de colecciones y publicaciones especializadas, mientras que otras regiones, incluyendo al Caribe han sido subrepresentadas, tanto en colecciones biológicas como en bases de datos de acceso abierto [@mantilla-meluk2023]. Esta falta de datos se traduce en un conocimiento desigual de la mastofauna, donde la proporción de registros provenientes del Caribe es considerablemente menor que la esperada por su extensión y diversidad ecológica [@ramírez-chaves2022a]. Parte de esta deficiencia es resultado de la histórica percepción de la región como biológicamente empobrecida, asociada a la pérdida de hábitat y a la aridez climática estacional, lo que redujo el interés por los estudios de campo. Sin embargo, investigaciones recientes han demostrado que los relictos de bosque seco y los ecosistemas de transición del Caribe albergan una alta heterogeneidad de especies, incluyendo taxones endémicos y poblaciones diferenciadas filogenéticamente [@garcía-q.2021a].
+
+En el Caribe colombiano, donde los ecosistemas secos tropicales han sufrido una gran pérdida de su cobertura original, los roedores podrían funcionar como bioindicadores de degradación y recuperación ambiental, siempre que existan inventarios y registros suficientemente robustos que sustenten los análisis [@garcía-q.2021]. Los registros obtenidos en la región, se concentran en pocos departamentos y en áreas específicas con historial investigativo, además, la información disponible en gran medida es obtenida de muestreos o revisiones taxonómicas que no abarcan por completo los diferentes ecosistemas del Caribe Colombiano [@solari2013]. Aunque existen esfuerzos de documentación recientes en departamentos como Sucre, Atlántico y Córdoba, la mayor parte de la región evidencia vacíos de información por el poco esfuerzo de muestreo y ausencia de investigaciones [@chacónpacheco2022][@avendaño-maldonado2021][@racero-casarrubia2015].
+
+El desconocimiento de la composición taxonómica y la distribución geográfica de los roedores en la región Caribe tiene implicaciones directas sobre la gestión de la biodiversidad, este vacío limita la capacidad de los programas de conservación para priorizar áreas críticas o evaluar el estado de las poblaciones, e impide reconocer patrones de endemismo o sustitución de especies entre subregiones ecológicas [@stephenson2022][@kumar2024]. Además, la transformación acelerada del paisaje en el Caribe, debido sobretodo a la expansión agropecuaria y la deforestación, ha reducido drásticamente los hábitats naturales, incrementando la necesidad de información actualizada que permita identificar especies vulnerables y establecer corredores biológicos funcionales [@pizano2014]. La plataforma Global Biodiversity Information Facility (GBIF) ha permitido acceder a un volumen creciente de registros de ocurrencia, recopilados por museos, universidades y proyectos de investigación [@gbif.orguser]. No obstante, la utilidad de estos datos depende de la calidad de las identificaciones taxonómicas, la precisión geográfica de los registros e incluso de la depuración y validación de estos mismos, combinando esto con la revisión exhaustiva de literatura científica reciente, en inventarios locales y listados regionales [@anderson2011].
+
+Para este trabajo se busca sintetizar y analizar el estado actual del conocimiento sobre la riqueza y la distribución de los roedores en los departamentos del Caribe, utilizando registros provenientes de la plataforma GBIF y de la literatura científica disponible, con la finalidad de identificar áreas con alta concentración de registros, zonas con vacíos de información y patrones espaciales de diversidad. Los resultados servirán como base para discutir las implicaciones ecológicas y de conservación para el grupo, y permitirá señalar los principales desafíos en la generación y manejo de información biológica en regiones que históricamente han sido submuestreadas.
+
+Por lo que nos debemos preguntar: ¿Cómo varían la riqueza, la abundancia relativa y el número de registros de roedores entre las categorías taxonómicas y los departamentos de la región Caribe, y en qué medida esta distribución geográfica se relaciona con variables climáticas?
+
+## OBJETIVOS
+
+**Objetivo general**
+
+Determinar el estado de conocimiento y distribución geográfica del orden Rodentia en los departamentos de la región caribe colombiana.
+
+**Objetivos específicos**
+
+- Identificar la riqueza y composición de roedores presentes en el caribe colombiano.
+
+- Analizar los patrones de distribución asociados a las condiciones bioclimáticas y topográficas de la región Caribe colombiana.
+
+- Comparar los registros obtenidos de la plataforma GBIF y la información disponible en la literatura científica.
+
+## METODOLOGÍA
+
+**Área de Estudio**
+
+El presente análisis se centra en la Región Caribe de Colombia, que comprende los departamentos continentales de Atlántico, Bolívar, Cesar, Córdoba, La Guajira, Magdalena y Sucre. Para mantener la consistencia en los siguientes geoprocesos se estandarizaron y reproyectaron todas las capas vectoriales al sistema de referencia de coordenadas geográficas WGS84 (EPSG:4326), y se utilizó como base un archivo .shp con los departamentos de la región y el paquete `sf` [@pebesma2018].
+
+**Diseño de la investigación**
+
+El flujo de trabajo se ejecutó en el entorno estadístico R [@rcoreteam2026][@allaire2024]. La estructuración y manipulación de las bases de datos se realizó mediante las librerías `dplyr` [@wickham2026] y `tidyr` [@wickham2025].Se definió una **ruta** que funcionó como la variable base para la localización de los archivos de entrada a lo largo del documento.
+
+La lista taxonómica que se usó como referencia se construyó a partir del listado oficial de mamíferos de Colombia en formato Darwin Core , combinando los archivos taxon.txt y distribution.txt para obtener el nombre binomial de cada especie junto con su distribución geográfica reportada [@ramírez-chaves2022]. Estos registros se filtraron para los siete departamentos continentales del Caribe mediante coincidencias textuales en "locality", y se combinaron con la lista taxonómica completa para extraer únicamente los taxones del orden Rodentia, conservando las variables relevantes para la realización del trabajo "id", "order", "family", "genus", "specificEpithet", "binomial", "locality".
+
+Los registros de ocurrencia de GBIF, previamente depurados de registros sin determinación taxonomica a nivel de especie y de especie exóticas, se transformaron en un objeto espacial mediante **st_as_sf** bajo el sistema de coordenadas previamente establecido [@gbif.orguser]. Mediante **st_join** y el criterio **st_intersects** con la capa vectorial departamental, se asignó cada registro a su departamento correspondiente, excluyendo los puntos sin coordenadas válidas [@pebesma2018]. A partir de este conjunto se calculó la representatividad del muestreo, comparando el número de especies esperadas según el listado oficial, mediante **grepl** sobre "locality", con el número de especies efectivamente registradas utilizando **n_distinct(species)** por departamento [@ramírez-chaves2022][@gbif.orguser], los resultados fueron representados en tablas formateadas con `knitr` y `kableExtra` [@xie2014][@zhu2024]. Sobre este mismo conjunto de información también se generó una tabla ancha de especies por departamento mediante **pivot_wider**, y un resumen de riqueza por departamento mediante **pivot_longer**, visualizado como gráfico de barras horizontal con `ggplot2` [@wickham2025][@wickham2016].
+
+De las variables bioclimáticas descargadas, se seleccionaron específicamente la temperatura media anual (Bio1) y la precipitación anual acumulada (Bio12), extraídas de la base de datos `WorldClim 2.1`, y la elevación se derivó de un DEM SRTM a 30 arc-segundos, recortando y enmascarando ambos conjuntos a los límites de la Región con el paquete terra [@fick2017][@hijmans]. Los mapas correspondientes se construyeron en `ggplot2` superponiendo una capa raster con **geom_raster**, los límites departamentales con **geom_sf** y los registros de roedores con **geom_point**, las escalas de color fueron graduadas mediante **scale_fill_gradientn** [@wickham2025][@wickham2016]. El cálculo de los números de Hill se realizó mediante la función **hill_taxa** del paquete hillR, calculando los órdenes de diversidad q0, q1 y q2 por cada departamento [@li2018]. Para su visualización, la matriz de resultados se reordenó a formato largo mediante **pivot_longer** y se construyeron los perfiles de diversidad con **geom_line** y **geom_point** deggplot2 [@wickham2016]. Las tendencias se diferenciaron por color en función del departamento en **theme_classic**.
+
+## RESULTADOS
+
+```{r}
+library(geodata)
+library(terra)
+library(sf)
+library(ggplot2)
+library(rgbif)
+library(dplyr)
+library(gridExtra)
+library(readxl)
+library(scales)
+library(tidyr)
+library(kableExtra)
+library(hillR)
+```
+
+```{r}
+ruta <- "C:/Users/et021/Documents/R studio/Proyecto de aula/Proyecto-de-aula-R/"
+```
+
+```{r}
+departamentos <- st_read(paste0(ruta, "Departamento/Departamento.shp"),
+                         quiet = TRUE)
+
+dept_caribe <- c("Atlántico", "Bolívar", "Cesar", "Córdoba",
+                 "La Guajira", "Magdalena", "Sucre")
+
+caribe <- departamentos[departamentos$DeNombre %in% dept_caribe, ]
+caribe <- st_transform(caribe, crs = 4326)
+```
+
+```{r}
+lista_mam <- read.delim(paste0(ruta, "dwca-mamiferos-col/taxon.txt"),
+                        sep = "\t", header = TRUE, encoding = "UTF-8")
+
+lista_mam$binomial <- paste(lista_mam$genus, lista_mam$specificEpithet)
+
+distribucion <- read.delim(paste0(ruta, "dwca-mamiferos-col/distribution.txt"),
+                           sep = "\t", header = TRUE, encoding = "UTF-8")
+
+distribucion_reg_caribe <- distribucion[
+  grepl("Atlántico", distribucion$locality) |
+  grepl("Bolívar",   distribucion$locality) |
+  grepl("Cesar",     distribucion$locality) |
+  grepl("Córdoba",   distribucion$locality) |
+  grepl("La Guajira",distribucion$locality) |
+  grepl("Magdalena", distribucion$locality) |
+  grepl("Sucre",     distribucion$locality), ]
+
+taxon_caribe <- merge(lista_mam, distribucion_reg_caribe, by = "id")
+
+rodentia_caribe <- subset(taxon_caribe, taxon_caribe$order == "Rodentia")
+rodentia_caribe <- rodentia_caribe[c("id", "order", "family", "genus", "specificEpithet", "binomial","locality", "threatStatus")]
+
+```
+
+```{r}
+registros_data <- read.csv(paste0(ruta, "GBIF Rodentia/RODENTIA_Caribe.csv"))
+```
+
+```{r}
+registros_sf <- st_as_sf(registros_data,
+                         coords = c("decimalLongitude", "decimalLatitude"),
+                         crs = 4326,
+                         na.fail = FALSE)
+
+registros_caribe <- st_join(registros_sf, caribe, join = st_intersects)
+registros_caribe <- subset(registros_caribe, !is.na(DeNombre))
+
+
+registros_coords <- as.data.frame(st_coordinates(registros_caribe))
+colnames(registros_coords) <- c("x", "y")
+registros_coords$species <- registros_caribe$species
+```
+
+```{r}
+# Especies registradas por departamento
+registradas_dep <- registros_caribe |>
+  as.data.frame() |>
+  group_by(DeNombre, species) |>
+  summarise(n = n(), .groups = "drop") |>
+  group_by(DeNombre) |>
+  summarise(registradas = n_distinct(species))
+
+# Especies esperadas por departamento
+esperadas_dep <- data.frame()
+for(dep in unique(caribe$DeNombre)){
+  n_esp <- sum(grepl(dep, rodentia_caribe$locality))
+  esperadas_dep <- rbind(esperadas_dep,
+                         data.frame(DeNombre = dep, esperadas = n_esp))
+}
+
+# Calculo de porcentaje
+representatividad <- merge(esperadas_dep, registradas_dep,
+                           by = "DeNombre", all.x = TRUE)
+representatividad$registradas[is.na(representatividad$registradas)] <- 0
+representatividad$porcentaje <- round((representatividad$registradas /
+                                       representatividad$esperadas) * 100, 1)
+```
+
+```{r}
+#| label: tbl-representatividad
+#| tbl-cap: "Representatividad de roedores por departamento"
+
+kable(representatividad,
+      col.names = c("Departamento", "Especies esperadas",
+                    "Especies registradas", "Representatividad (%)"),
+      align = "lccc") |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE)
+```
+
+La @tbl-representatividad muestra que para Sucre se evidencia una concordancia total entre las especies esperadas según la literatura y las registradas en campo [@chacónpacheco2022]. Para Atlántico se registró un menor número de especies que el reportado en la literatura [@avendaño-maldonado2021]. Mismo caso que Córdoba, donde el número de especies registradas fue ligeramente inferior al esperado [@racero-casarrubia2024]. Para La Guajira, Magdalena, Cesar y Bolívar, el número de registros obtenidos de GBIF supera las especies reportadas en la literatura de referencia, lo que puede atribuirse a los vacíos históricos de información, para los cuales la literatura disponible resulta insuficiente para contrastar con el elevado número de registros correspondientes [@ramírez-chaves2022].
+
+```{r}
+worldclim <- worldclim_country(country = "COL",
+                               var = "bio",
+                               res = 2.5,
+                               path = ruta)
+
+caribe_vect <- vect(caribe)
+
+temperatura   <- worldclim[["wc2.1_30s_bio_1"]]
+precipitacion <- worldclim[["wc2.1_30s_bio_12"]]
+
+temperatura_caribe   <- mask(crop(temperatura,   caribe_vect), caribe_vect)
+precipitacion_caribe <- mask(crop(precipitacion, caribe_vect), caribe_vect)
+
+temp_df <- as.data.frame(temperatura_caribe, xy = TRUE)
+prec_df <- as.data.frame(precipitacion_caribe, xy = TRUE)
+
+colnames(temp_df) <- c("x", "y", "temperatura")
+colnames(prec_df) <- c("x", "y", "precipitacion")
+```
+
+```{r}
+#| label: fig-temperatura
+#| fig-cap: "Temperatura media anual y registros de roedores en la región Caribe."
+ggplot() +
+  geom_raster(data = temp_df, aes(x = x, y = y, fill = temperatura)) +
+  geom_sf(data = caribe, fill = NA, color = "black", linewidth = 0.5) +
+  geom_point(data = registros_coords, aes(x = x, y = y),
+             color = "black", size = 1, alpha = 0.5) +
+  scale_fill_gradientn(
+    colours = c('#2c7bb6', '#abd9e9', '#ffffbf', '#fdae61', '#d7191c'),
+    name = "Temperatura\nmedia (°C)"
+  ) +
+  labs(x = "Longitud", y = "Latitud") +
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5, size = 14),
+        plot.subtitle = element_text(hjust = 0.5, size = 10))
+```
+
+El mapa que se observa en la @fig-temperatura muestra que la temperatura media anual supera los 20°C en practicamente la totalidad del territorio analizado, con tonalidades rojas y naranjas dominando la mayor parte de la superficie. Se distingue una zona puntual de menor temperatura, donde la escala de color cambia hacia tonos amarillos, verdes y azules, indicando valores de temperatura por debajo de 10°C, e incluso cercanos a 0°C en el núcleo de esa zona.
+
+Los registros de roedores representados por puntos negros, se distribuyen de forma desigual sobre el territorio, con una mayor densidad alrededor y en los bordes de la zona de menor temperatura mencionada. Mientras que en el sur de Bolívar, Córdoba y parte de Cesar se presenta una densidad notablemente menor, con áreas extensas sin ningún registro visible.
+
+```{r}
+#| label: fig-precipitacion
+#| fig-cap: "Precipitación anual y registros de roedores en la región Caribe de Colombia."
+ggplot() +
+  geom_raster(data = prec_df, aes(x = x, y = y, fill = precipitacion)) +
+  geom_sf(data = caribe, fill = NA, color = "black", linewidth = 0.5) +
+  geom_point(data = registros_coords, aes(x = x, y = y),
+             color = "red", size = 1, alpha = 0.5) +
+  scale_fill_gradientn(
+    colours = c('#ffffcc', '#a1dab4', '#41b6c4', '#2c7fb8', '#253494'),
+    name = "Precipitación\nanual (mm)"
+  ) +
+  labs(x = "Longitud", y = "Latitud") +
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5, size = 14),
+        plot.subtitle = element_text(hjust = 0.5, size = 10))
+```
+
+La @fig-precipitacion muestra un gradiente de precipitación que aumenta progresivamente de norte a sur, donde La Guajira presenta los valores más bajos, con tonos amarillo pálido que indican precipitaciones inferiores a 1000 mm anuales, y que hacia el centro de la región los tonos cambian a verde claro, como representación a un rango intermedio, mientras que el sur de la región presenta las tonalidades más oscuras, en azul, indicando los valores más altos del mapa, que llegan a los 3000-4000 mm anuales.
+
+```{r}
+dem_col <- elevation_30s(country = "COL", path = ruta)
+
+dem_caribe <- mask(crop(dem_col, caribe_vect), caribe_vect)
+
+dem_df <- as.data.frame(dem_caribe, xy = TRUE)
+colnames(dem_df) <- c("x", "y", "elevacion")
+```
+
+```{r}
+#| label: fig-elevacion
+#| fig-cap: "Elevación y registros de roedores en la región Caribe de Colombia."
+ggplot() +
+  geom_raster(data = dem_df, aes(x = x, y = y, fill = elevacion)) +
+  geom_sf(data = caribe, fill = NA, color = "black", linewidth = 0.5) +
+  geom_point(data = registros_coords, aes(x = x, y = y),
+             color = "red", size = 1, alpha = 0.5) +
+  scale_fill_gradientn(
+    colours = c('#336600', '#99cc00', '#ffcc00', '#cc6600', '#ffffff'),
+    name = "Elevación\n(m.s.n.m.)",
+    values = scales::rescale(c(0, 500, 1000, 2000, 5775))
+  ) +
+  labs(x = "Longitud", y = "Latitud") +
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5, size = 14),
+        plot.subtitle = element_text(hjust = 0.5, size = 10))
+```
+
+Gran parte de la región Caribe se encuentra en tonalidades verdes, correspondientes a elevaciones cercanas a los 0 m s.n.m., como se observa en La @fig-elevacion. Se logra distinguir la sierra Nevada de Santa Marta, donde la escala de color pasa de verde a amarillo, naranja y finalmente a tonos blancos en el centro, indicando elevaciones que superan los 1000, 2000, 3000 y hasta cerca de 5000 m s.n.m. en el punto más alto. También se observan elevaciones menores, en tonos amarillo y naranja, dispersas en el sur de Bolívar y Córdoba, así como en el extremo sur de la región y en pequeños sectores aislados del centro. Los registros de roedores se concentran alrededor y dentro de la SNSM, particularmente en sus zonas de menor elevación.
+
+```{r}
+#| label: tbl-especies-departamento
+#| tbl-cap: "Registros de roedores por especie y departamento en la región Caribe de Colombia."
+tabla_especies <- as.data.frame(registros_caribe) |>
+  group_by(species, DeNombre) |>
+  summarise(n_registros = n(), .groups = "drop") |>
+  tidyr::pivot_wider(
+    names_from = DeNombre,
+    values_from = n_registros,
+    values_fill = 0
+  ) |>
+  mutate(total = rowSums(across(where(is.numeric)))) |>
+  arrange(desc(total))
+
+kable(tabla_especies,
+      align = "lcccccccc") |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = TRUE) |>
+  scroll_box(height = "400px")
+```
+
+La @tbl-especies-departamento todas las especies registradas, ordenadas de forma descendente según el total de registros, junto con su distribución de conteos entre los siete departamentos del Caribe. Es clara la mayor presencia de especies generalistas de alta tolerancia ecológica como *Sciurus granatensis* en toda la región, frente a especialistas restringidas a especies más restringidas a nichos específicos, como *Proechimys mincae*, que está mayormente asociada a montaña húmeda.
+
+```{r}
+# Riqueza de especies por departamento
+riqueza_dep <- as.data.frame(registros_caribe) |>
+  group_by(DeNombre) |>
+  summarise(
+    n_especies  = n_distinct(species),
+    n_registros = n()
+  ) |>
+  arrange(desc(n_especies))
+
+
+riqueza_long <- riqueza_dep |>  
+  tidyr::pivot_longer(cols = c(n_especies),
+                      names_to = "categoria",
+                      values_to = "valor") |>
+  mutate(categoria = ifelse(categoria == "n_especies",
+                            "Especies"))
+```
+
+```{r}
+#| label: fig-riqueza
+#| fig-cap: "Riqueza de especies de roedores por departamento."
+ggplot(riqueza_long, aes(x = reorder(DeNombre, valor),
+                         y = valor, fill = categoria)) +
+  geom_bar(stat = "identity", position = "dodge", color = "black") +
+  geom_text(aes(label = valor),
+            position = position_dodge(width = 0.9),
+            hjust = -0.3, size = 3.5) +
+  scale_fill_manual(values = c("Especies" = "#f03b20"),
+                    name = "") +
+  coord_flip() +
+  labs(x = "", y = "Número de taxones") +
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5, size = 14),
+        plot.subtitle = element_text(hjust = 0.5, size = 10),
+        legend.position = "bottom")
+```
+
+En la @fig-riqueza se ordenan los siete departamentos según su número de especies registradas, con Magdalena presentando el mayor número, con 37 especies, seguido por Bolívar con 29, La Guajira 28, y Cesar con 26. Estos cuatro departamentos cuentan con un alto número de especies registradas respecto a Córdoba con 15, Sucre con 13 y Atlántico con 8, estas tres últimas presentan valores considerablemente menores.
+
+```{r}
+abundancia_sp_dep <- as.data.frame(registros_caribe) |>
+  group_by(DeNombre, species) |>
+  summarise(abundancia = n(), .groups = "drop")
+
+hill_por_dep <- abundancia_sp_dep |>
+  group_by(DeNombre) |>
+  summarise(
+    q0 = hill_taxa(setNames(abundancia, species), q = 0),
+    q1 = hill_taxa(setNames(abundancia, species), q = 1),
+    q2 = hill_taxa(setNames(abundancia, species), q = 2),
+    .groups = "drop"
+  )
+
+hill_long <- hill_por_dep |>
+  tidyr::pivot_longer(cols = c(q0, q1, q2),
+                      names_to = "q", values_to = "valores") |>
+  mutate(q = recode(q, q0 = "0", q1 = "1", q2 = "2"),
+         q = as.numeric(q))
+```
+
+```{r}
+#| label: fig-hill
+#| fig-cap: "Perfiles de diversidad de Hill (q0, q1, q2) por departamento en la región Caribe de Colombia."
+ggplot(hill_long, aes(x = q, y = valores, color = DeNombre, group = DeNombre)) +
+  geom_line(linewidth = 0.9) +
+  geom_point(size = 2.5) +
+  scale_x_continuous(breaks = c(0, 1, 2)) +
+  theme_classic(base_size = 12) +
+  labs(
+    title = "Perfiles de diversidad por departamento",
+    x = "Orden de diversidad (q)",
+    y = "Número efectivo de especies",
+    color = "Departamento"
+  ) +
+  theme(
+    panel.border = element_rect(color = "black", fill = NA, linewidth = 1),
+    plot.title = element_text(face = "bold")
+  )
+```
+
+La @fig-hill muestra tres líneas de tendencia para cada uno de los siete departamentos, correspondientes a los valores de q0, q1 y q2 en el eje horizontal y al número efectivo de especies en el eje vertical. En q0, se muestran los mismos valores de riqueza que se observaron en la @fig-riqueza. Como q1 refleja aquellas especies "efectivamente comunes", todas las líneas descienden, Magdalena muestra la caída más pronunciada, pasando de 37 a un valor cercano a 15, mientras que Cesar queda ligeramente por debajo, cercano a Córdoba con 10. Atlántico pasa de 8 hasta aproximadamente 5, mientras que Sucre pasa de 13 hasta aproximadamente 7. Por otro lado, q2 representa la diversidad ponderada fuertemente hacia la dominancia, por lo que las líneas continúan descendiendo como evidencia de que la comunidad analizada por departamento tiene número menor de especies muy abundantes, en el caso de La Guajira se presenta un valor cercano a 11.5, siendo este el más alto, seguido de Magdalena con un valor cercano a 11 y Bolívar cercano a 9.5. Cesar y Córdoba se ubican en valores cercanos a 6, Sucre cercano a 5, y Atlántico con el valor más bajo, cercano a 4.
