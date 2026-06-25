@@ -1,0 +1,1707 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="e8b9ed9b-f715-4eac-ae24-772fbf40d7ae/v1.18" system="http://gbif.org" scope="system"
+         xml:lang="spa">
+
+<dataset>
+  <alternateIdentifier>doi:10.15472/kl1whs</alternateIdentifier>
+  <alternateIdentifier>e8b9ed9b-f715-4eac-ae24-772fbf40d7ae</alternateIdentifier>
+  <alternateIdentifier>https://ipt.biodiversidad.co/sib/resource?r=mamiferos_col</alternateIdentifier>
+  <title xml:lang="spa">Mamíferos de Colombia</title>
+      <creator>
+    <individualName>
+        <givenName>Héctor E.</givenName>
+      <surName>Ramírez-Chaves</surName>
+    </individualName>
+    <organizationName>Profesor Auxiliar, Departamento de Ciencias Biológicas, Facultad de Ciencias Exactas y Naturales &amp; Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo | Autoridad Taxonómico |  Proveedor de contenido | Miembro Comités de Investigación y, Editorial</positionName>
+    <address>
+        <deliveryPoint>Calle 65 # 26-10</deliveryPoint>
+        <city>Manizales</city>
+        <administrativeArea>Caldas</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>hector.ramirez@ucaldas.edu.co</electronicMailAddress>
+          <userId directory="http://scholar.google.com/citations?user=">u1TM6jIAAAAJ&amp;hl=en</userId>
+      </creator>
+      <creator>
+    <individualName>
+        <givenName>Nerieth Goretti</givenName>
+      <surName>Leuro Robles</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Bogotá D.C.</city>
+        <administrativeArea>Bogotá D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>goreleuro@gmail.com</electronicMailAddress>
+          <userId directory="http://orcid.org/">0000-0001-7172-7213</userId>
+      </creator>
+      <creator>
+    <individualName>
+        <givenName>Alejandra</givenName>
+      <surName>Castaño Rivera</surName>
+    </individualName>
+    <organizationName>Universidad de Caldas</organizationName>
+    <positionName>Investigadora</positionName>
+    <address>
+        <city>Manizales</city>
+        <administrativeArea>Caldas</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>alejandra.casrive@gmail.com</electronicMailAddress>
+      </creator>
+      <creator>
+    <individualName>
+        <givenName>Darwin M</givenName>
+      <surName>Morales-Martínez</surName>
+    </individualName>
+    <organizationName>Grupo de Fauna, Programa de Ecosistemas y Recursos Naturales, Instituto Amazónico de Investigaciones Científicas SINCHI</organizationName>
+    <positionName>Investigador</positionName>
+    <address>
+        <deliveryPoint>Avenida Vásquez Cobo entre calles 15 y 16</deliveryPoint>
+        <city>Leticia</city>
+        <administrativeArea>Amazonas</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>dmmoralesmar@gmail.com</electronicMailAddress>
+      </creator>
+      <metadataProvider>
+    <individualName>
+        <givenName>Danny</givenName>
+      <surName>Zurc</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Investigadora</positionName>
+    <address>
+        <deliveryPoint>Calle 54A No. 30-01</deliveryPoint>
+        <city>Medellín</city>
+        <administrativeArea>Antioquia</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>dannyzur@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Héctor E.</givenName>
+      <surName>Ramírez-Chaves</surName>
+    </individualName>
+    <organizationName>Profesor Auxiliar, Departamento de Ciencias Biológicas, Facultad de Ciencias Exactas y Naturales &amp; Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo | Autoridad Taxonómico | Proveedor de contenido</positionName>
+    <address>
+        <deliveryPoint>Calle 65 # 26-10</deliveryPoint>
+        <city>Manizales</city>
+        <administrativeArea>Caldas</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>hector.ramirez@ucaldas.edu.co</electronicMailAddress>
+          <userId directory="http://scholar.google.com/citations?user=">u1TM6jIAAAAJ&amp;hl=en</userId>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Andrés Felipe</givenName>
+      <surName>Suárez Castro</surName>
+    </individualName>
+    <positionName>Socio activo | Autoridad Taxonómico</positionName>
+    <address>
+        <country>AU</country>
+    </address>
+    <electronicMailAddress>felipesuarezca@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Dora Catalina</givenName>
+      <surName>Concha Osbahr</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>d.catalina.concha.o@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Angélica</givenName>
+      <surName>Trujillo</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>atrujilloacosta@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Elkin Alexi</givenName>
+      <surName>Noguera Urbano</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <country>MX</country>
+    </address>
+    <electronicMailAddress>elkalexno@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Gabriel Ernesto</givenName>
+      <surName>Pantoja Peña</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Investigador</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>gepantojap@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Miguel Eduardo</givenName>
+      <surName>Rodríguez-Posada</surName>
+    </individualName>
+    <organizationName>La Palmita | Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Director Científico | Socio activo</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>migrodriguezp@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>José Fernando</givenName>
+      <surName>González Maya</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Bogotá</city>
+        <administrativeArea>Cundinarmarca</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>jfgonzalezmaya@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Jairo</givenName>
+      <surName>Pérez Torres</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>jaiperez@javeriana.edu.co</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Hugo</givenName>
+      <surName>Mantilla Meluk</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Investigador</positionName>
+    <address>
+        <deliveryPoint>Quindío</deliveryPoint>
+        <city>Armenia</city>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>hugo.mantillameluk@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Carolina</givenName>
+      <surName>López Castañeda</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Cali</city>
+        <administrativeArea>Valle del Cauca</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>lopez.caro@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Alexander</givenName>
+      <surName>Velásquez Valencia</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Leticia</city>
+        <administrativeArea>Amazonas</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>alexandervelasquezvalencia@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Diego</givenName>
+      <surName>Zárrate Charry</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>Godiezcharry@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Darwin M</givenName>
+      <surName>Morales-Martínez</surName>
+    </individualName>
+    <organizationName>Grupo de Fauna, Programa de Ecosistemas y Recursos Naturales, Instituto Amazónico de Investigaciones Científicas SINCHI</organizationName>
+    <positionName>Investigador</positionName>
+    <address>
+        <deliveryPoint>Avenida Vásquez Cobo entre calles 15 y 16</deliveryPoint>
+        <city>Leticia</city>
+        <administrativeArea>Amazonas</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>dmmoralesmar@gmail.com</electronicMailAddress>
+      </metadataProvider>
+      <associatedParty>
+    <individualName>
+        <givenName>Andrés Felipe</givenName>
+      <surName>Suárez Castro</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo | Autoridad Taxonómico</positionName>
+    <address>
+        <country>AU</country>
+    </address>
+    <electronicMailAddress>felipesuarezca@gmail.com</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Miguel Eduardo</givenName>
+      <surName>Rodríguez-Posada</surName>
+    </individualName>
+    <organizationName>La Palmita | Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Director Científico | Socio activo</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>migrodriguezp@gmail.com</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Danny</givenName>
+      <surName>Zurc</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Investigadora</positionName>
+    <address>
+        <deliveryPoint>Calle 54A No. 30-01</deliveryPoint>
+        <city>Medellín</city>
+        <administrativeArea>Antioquia</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>dannyzur@gmail.com</electronicMailAddress>
+    <role>principalInvestigator</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Dora Catalina</givenName>
+      <surName>Concha Osbahr</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>d.catalina.concha.o@gmail.com</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Angélica</givenName>
+      <surName>Trujillo</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>atrujilloacosta@gmail.com</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Elkin Alexi</givenName>
+      <surName>Noguera Urbano</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>elkalexno@gmail.com</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Gabriel Ernesto</givenName>
+      <surName>Pantoja Peña</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Investigador</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>gepantojap@gmail.com</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>José Fernando</givenName>
+      <surName>González Maya</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>jfgonzalezmaya@gmail.com</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Jairo</givenName>
+      <surName>Pérez Torres</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>jaiperez@javeriana.edu.co</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Hugo</givenName>
+      <surName>Mantilla Meluk</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Investigador</positionName>
+    <address>
+        <city>Armenia</city>
+        <administrativeArea>Quindío</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>hugo.mantillameluk@gmail.com</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Carolina</givenName>
+      <surName>López Castañeda</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Cali</city>
+        <administrativeArea>Valle del Cauca</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>lopez.caro@gmail.com</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Alexander</givenName>
+      <surName>Velásquez Valencia</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <city>Leticia</city>
+        <administrativeArea>Amazonas</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>alexandervelasquezvalencia@gmail.com</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Diego</givenName>
+      <surName>Zárrate Charry</surName>
+    </individualName>
+    <organizationName>Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo</positionName>
+    <address>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>Godiezcharry@gmail.com</electronicMailAddress>
+    <role>contentProvider</role>
+      </associatedParty>
+  <pubDate>
+      2025-04-23
+  </pubDate>
+  <language>spa</language>
+  <abstract>
+    <para>Se publica a través del Sistema de Información en Biodiversidad, la riqueza de mamíferos de Colombia con base en una nueva revisión de las especies reportadas en literatura y especímenes de colecciones biológicas del país y el extranjero. El resultado es un total de 553 especies pertenecientes a 13 órdenes, 50 familias y 220 géneros. La mayor riqueza de especies la abarcan los órdenes Chiroptera (222 especies) y Rodentia (138 especies). Del total de especies, 64 son endémicas (31 de roedores, nueve de primates, nueve de murciélagos, siete musarañas, cinco lagomorfos y tres de didélfidos). 70 especies se encuentran en algún grado de amenaza según la resolución 0126 de 2024 del Ministerio de Ambiente y Desarrollo Sostenible; y 82 son objeto de comercio. Cuatro especies adicionales (Gracilinanus sp., Monodelphis sp.,  Carollia sp. y Nephelomys sp., ver Solari et al. 2013) representan especies no descritas, que no son incluidas en el conteo hasta su descripción formal.</para>
+  </abstract>
+      <keywordSet>
+            <keyword>Mamíferos</keyword>
+            <keyword>Colombia</keyword>
+            <keyword>Lista de referencia</keyword>
+        <keywordThesaurus>n/a</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>Checklist</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>Taxonomicauthority</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+  <intellectualRights>
+    <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+  </intellectualRights>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>Colombia. Departamentos: Amazonas, Antioquia, Arauca, Atlántico, Cundinamarca, Bolívar, Boyacá, Caldas, Caquetá, Casanare, Cauca, Cesar, Chocó, Córdoba, Cundinamarca, Guainía, Guaviare, Huila, La Guajira, Magdalena, Meta, Nariño, Norte de Santander, Putumayo, Quindío, Risaralda, San Andrés y Providencia, Santander, Sucre, Tolima, Valle del Cauca, Vaupés y Vichada.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-82.628</westBoundingCoordinate>
+          <eastBoundingCoordinate>-66.797</eastBoundingCoordinate>
+          <northBoundingCoordinate>13.785</northBoundingCoordinate>
+          <southBoundingCoordinate>-4.39</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+          <taxonomicCoverage>
+              <generalTaxonomicCoverage>Los mamíferos de Colombia se encuentran representados por 13 órdenes y 50 familias. El orden más abundante es Rodentia, representado por 10 familias, seguido por Chiroptera con 9 familias y Carnivora con 8 familias.
+Dentro de los ajustes taxonómicos implementados en esta versión se encuentran:
+1. Handleyomys alfaroi: Este roedor cambia al género Casiomys, por lo cual queda como Casiomys alfaroi (J. A. Allen, 1891). Los otros Handleyomys no cambian (Voss, R.S. 2024).
+2. Coendou quichua es reemplazado por Coendou vossi (Ramírez-Chaves, Mazepa, Morales-Martínez, Suárez-Castro, Colmenares-Pinzón, Pulido-Santacruz &amp; Noguera-Urbano, 2025). Con distribución en: Antioquia?, Caldas, Cesar, Cundinamarca, Santander, Sucre.
+3. Se agrega Coendou rothschildi Thomas, 1902, con distribución en Chocó y Córdoba.
+4. Leopardus tigrinus se actualiza a Leopardus pardinoides (J. E. Gray, 1867). (de Oliveira et al, 2024). 
+5. Dasypus novemcinctus se divide en: Dasypus fenestratus W. C. H. Peters, 1865: con distribución en todos los departamentos transandinos continentales.Y Dasypus novemcinctus con distribución en Orinoquía y Amazonía.
+6. Se actualiza el género Pudella, anteriormente en Pudu ya que este último quedó restringido a Pudu puda. Ver: (Barrio et al, 2024)
+7. Se movieron las dos especies de Kogia a la familia Kogiidae. (McGowen et al, 2020).</generalTaxonomicCoverage>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Atelidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Balaenopteridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Bradypodidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Caenolestidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Callitrichidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Canidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Caviidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Cebidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Cervidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Chlamyphoridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Choloepodidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Cricetidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Cuniculidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Cyclopedidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Dasypodidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Dasyproctidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Delphinidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Didelphidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Dinomyidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Echimyidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Emballonuridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Erethizontidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Felidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Furipteridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Geomyidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Heteromyidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Iniidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Leporidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Mephitidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Molossidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Mormoopidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Mustelidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Myrmecophagidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Natalidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Noctilionidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Otariidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Phocidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Phyllostomidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Physeteridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Pitheciidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Procyonidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Sciuridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Soricidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Tapiridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Tayassuidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Thyropteridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Trichechidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Ursidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Vespertilionidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Ziphiidae</taxonRankValue>
+              </taxonomicClassification>
+          </taxonomicCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para></para>
+    </description>
+    <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+  </maintenance>
+
+      <contact>
+    <individualName>
+        <givenName>Héctor E.</givenName>
+      <surName>Ramírez-Chaves</surName>
+    </individualName>
+    <organizationName>Profesor Auxiliar, Departamento de Ciencias Biológicas, Facultad de Ciencias Exactas y Naturales &amp; Sociedad Colombiana de Mastozoología</organizationName>
+    <positionName>Socio activo | Autoridad Taxonómico</positionName>
+    <address>
+        <deliveryPoint>Calle 65 # 26-10</deliveryPoint>
+        <city>Manizales</city>
+        <administrativeArea>Caldas</administrativeArea>
+        <country>CO</country>
+    </address>
+    <phone>8781500</phone>
+    <electronicMailAddress>hector.ramirez@ucaldas.edu.co</electronicMailAddress>
+          <userId directory="http://scholar.google.com/citations?user=">u1TM6jIAAAAJ&amp;hl=en</userId>
+      </contact>
+  <methods>
+        <methodStep>
+          <description>
+            <para>Definición del equipo de trabajo: 
+
+El equipo de trabajo está conformado por las universidades públicas y privadas que albergan las colecciones biológicas, las colecciones biológicas, los curadores de las colecciones mastozoológicas, ONG´s, la Sociedad Colombiana de Mastozoología y el Instituto Humboldt a través del Sistema de Información sobre Biodiversidad (SiB Colombia). Así, cada actor es entendido como:
+
+a.	Universidad pública y privada: institución que alberga colecciones biológicas del país, para el caso específico colecciones mastozoológicas.
+b.	Colecciones biológicas: son los lugares que albergan la información primaria de registros de las especies de mamíferos del país.
+c.	Curadores de las colecciones biológicas-mastozoológicas: son los facilitadores de la información de registros de mamíferos de la colección mastozoológica a su cargo.
+d.	ONG´s: son los facilitadores de la información de registros de mamíferos procedentes de las técnicas de campo fototrampeo, avistamiento, colectas, huellas, entre otros.
+e.	SCMas: agremiación de especialistas validadores de la información proveniente de los curadores y las ONG´s; también son proveedores de contenidos.
+f.	SiB Colombia: instancia nacional que facilita la publicación, consolidación y uso de los datos que provean las universidades, las colecciones biológicas y las ONG´s.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Selección de listado a desarrollar
+
+1.	Lista de nombres de especies: 
+
+A.	A partir de los listados de especies de mamíferos de Colombia realizados por Ramírez-Chaves et al. (2016), Castro-Suárez &amp; Ramírez-Chaves (2014) y Solari et al. (2013), los cuales reúnen los nombres de las especies que ocurren en el país, se construyó el primer listado. Para esto se tuvo en consideración que “La mayoría de las especies incluidas en dicho listado pueden ser verificadas a partir de la revisión de especímenes depositados en las colecciones biológicas del país o en el exterior” (Solari et al. 2013). 
+
+B.	A partir de los registros proveídos por las colecciones y ONG´s, se construyó un listado de especies reportadas por estas instituciones. Se siguió la taxonomía empleada por Ramírez-Chaves et al. (2016) y Solari et al. (2013). Los nombres científicos fueron validados en el Catalogue of Life (http://www.catalogueoflife.org/). 
+
+C.	A partir de la compilación de la información proveniente de las listas anteriores, y las nuevas publicaciones que reportan nuevas especies en el territorio nacional, fue validada la información proveniente de las colecciones biológicas como por las ONG´s. Tres criterios curatoriales se siguieron para validar estos registros.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Criterios curatoriales para la validación de registros biológicos.
+
+a.	Criterio Taxonómico: revisión de incertidumbre taxonómica de los registros a nivel de especie. Nombre de la especie. Taxonomía a seguir Ramírez-Chaves et al. (2016) y Solari et al (2013). Revisión de sinonimias recientes. Para la validación de los nombres científicos de las especies, éstos fueron revisados en el Catalogue of Life (http://www.catalogueoflife.org/col). Así, para los nombres que se encontraron actualizados en el catálogo se les asignó el código Col taxon LSID. Y los nombres que no se encontraron actualizados en el catálogo, como los nombres de las nuevas especies que se han registrado en Colombia, serán sugeridas al Catalogue of Life para su incorporación en el portal.
+
+b.	Criterio Espacial: punto de referencia espacial donde fue localizada la especie. Representado a partir de coordenadas geográficas en decimales. Correspondencia entre la localidad atribuida en el elemento del Darwin Core y la coordenada especificada.
+
+c.	Criterio Documental: estandarización y estructuración de la información de acuerdo a la descripción de los elementos del formato Estándar Darwin Core.
+
+De otro lado, se hizo la definición de escalas: en lo referente a la escala espacial se asume todo el territorio colombiano. Para la escala temporal, el tiempo se determinó a partir de la fecha de colecta u observación hasta el presente para cada registro. Y en cuanto a la escala filogenética o temática se hizo hasta el nivel de especie.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>2.	Para la recopilación de la información del listado de especies:
+
+a.	Estándar para la publicación: se empleó el estándar Darwin Core –DwC-, de uso global por iniciativas como GBIF, por recomendación de TDWG (http://rs.tdwg.org/dwc/terms/). “Éste consiste en una serie de campos estandarizados que se pueden visualizar como las columnas de una hoja de cálculo (actualmente, cuenta con 185 campos, de los cuales 44 corresponden a elementos para construir listas de chequeo de especies)” (Wieczoreck et al. 2012; Torres 2016).
+
+b.	Información a recopilar: se reunió la información de las lista de especies publicada por Ramírez-Chaves et al. (2016) y las publicaciones recientes de nuevas especies registradas en Colombia (e.g. Rodríguez-Posada et al. 2017, Mantilla-Meluk &amp; Montenegro 2016). Se cura la información proveída por las colecciones biológicas como las ONG´s.
+
+c.	Estructuración de la información: se sigue la definición de elementos del Estándar Darwin Core –DwC-.
+
+d.	Estandarización de la información: se unifica la forma de presentación de los registros por colección y ONG´s.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Clasificación taxonómica:
+Se hizo de manera categorizada desde los niveles taxonómicos superiores (reino, filo, clase), hasta el nivel más específico que es la especie.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Corrección de errores taxonómicos:
+La lista de nombres usada para la verificación taxonómica fue la propuesta por Ramírez-Chaves et al. (2016). Los errores técnicos en el formulario fueron revisados con OpenRefine siguiendo protocolos sistematizados (Chapman 2005, Zermoglio et al. 2016).</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Documentación de metadatos y publicación:
+Para las metadatos se seguió el Perfil de Metadatos de GBIF (GMP), incorporado en su herramienta Integrated Publishing Toolkit. Este estándar es promovido y usado por el SiB Colombia. Y se tuvo en cuenta la información de los registros y fichas de especie, proveída por las colecciones,  ONG´s y los socios.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>En la actualización de 2024 además de la revisión taxonómica se incluyo información de la distribución de las especies dentro de las zonas correspondientes a las diferentes Corporaciones Autónomas regionales obtenida de la revisión bibliográfica de diferentes publicaciones (Castaño Rivera, 2021). Además, de la inclusión de los nombres comunes e indígenas encontrados en el libro: Mamíferos colombianos: sus nombres comunes e indígenas (Rodríguez-Mahecha et all, 1995).</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Mantenimiento del listado de especies:
+La SCMas continuará construyendo la lista de mamíferos y revisando la información asociada a ésta cada vez que sea necesario. Con el equipo de trabajo, al final del proyecto se realizó una discusión que permitió retroalimentar el proceso en cuanto a la planeación del trabajo, como estrategia para dar continuidad en el tiempo y, enriquecer, ajustar, documentar las especies de mamíferos que ocurren en el país.</para>
+          </description>
+        </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Colombia. Incluyendo información a nivel departamental como de Corporaciones Autónomas Regionales.</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>A partir del recurso previo disponible en el SIB Colombia de los mamíferos de Colombia, se adicionan especies descritas en los últimos tres años y registros de especies para Colombia obtenidos entre 2017 y 2024. Además, se descartan algunas especies cuya presencia en el país no se soporta con especímenes de museos.</para>
+        </samplingDescription>
+      </sampling>
+      <qualityControl>
+        <description>
+          <para>Revisión de la lista por parte de miembros de la Sociedad Colombiana de Mastozoología expertos en taxonomía de mamíferos.</para>
+        </description>
+      </qualityControl>
+  </methods>
+  <project id="CESP2018-011">
+    <title>Convenio de Cooperación No. 17-16-062-022CE | CESP 2018-011 Increasing capacities to develop National Species Checklists in the Latin America and the Caribbean Region</title>
+      <personnel>
+        <individualName>
+            <givenName>Héctor E.</givenName>
+          <surName>Ramírez-Chaves</surName>
+        </individualName>
+              <userId directory="http://scholar.google.com/citations?user=">u1TM6jIAAAAJ&amp;hl=en</userId>
+        <role>author</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Andrés Felipe</givenName>
+          <surName>Suárez Castro</surName>
+        </individualName>
+        <role>author</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Sergio</givenName>
+          <surName>Solari Torres</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Abelardo</givenName>
+          <surName>Bolaños</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Alexander</givenName>
+          <surName>Velásquez Valencia</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Maria del Pilar</givenName>
+          <surName>Rivas Pava</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Cristian Andrés</givenName>
+          <surName>Cruz Rodríguez</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Martha Patricia</givenName>
+          <surName>Ramírez</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Francisco</givenName>
+          <surName>Sánchez</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Hugo</givenName>
+          <surName>López Arévalo</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Oscar</givenName>
+          <surName>Murillo</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Miguel Eduardo</givenName>
+          <surName>Rodríguez Posada</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Jairo</givenName>
+          <surName>Pérez Torres</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Jhon Jairo</givenName>
+          <surName>Calderón Leyton</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Alejandra</givenName>
+          <surName>Bonilla</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Ingrith  Y.</givenName>
+          <surName>Mejía Fontecha</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Darly Gabriela</givenName>
+          <surName>Muñoz Lara</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Juliet</givenName>
+          <surName>Cárdenas</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Javier E.</givenName>
+          <surName>Colmenares</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Diana</givenName>
+          <surName>Ramírez</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Leidy Johana</givenName>
+          <surName>Sánchez</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Jennifer</givenName>
+          <surName>Zilentsijgh</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Alfaro</givenName>
+          <surName>Asprilla</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Luisa</givenName>
+          <surName>Alejandra Ruano</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Karime Alejadra</givenName>
+          <surName>Gómez B.</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Diego J.</givenName>
+          <surName>Lizcano</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Edwar Fabián</givenName>
+          <surName>Farfán Espinosa</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>José Fernando</givenName>
+          <surName>González Maya</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Camilo</givenName>
+          <surName>Casas</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Sandra Milena</givenName>
+          <surName>Chala Quintero</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Angie</givenName>
+          <surName>Solorzano</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Alejandra</givenName>
+          <surName>Hurtado</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Andrea</givenName>
+          <surName>Cáceres</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Christian David</givenName>
+          <surName>Cabrera Ojeda</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Gabriel Ernesto</givenName>
+          <surName>Pantoja Peña</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Hugo</givenName>
+          <surName>Mantilla Meluk</surName>
+        </individualName>
+        <role>curator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Andrés Felipe</givenName>
+          <surName>Vargas</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Sebastián O.</givenName>
+          <surName>Montilla</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Luisa Fernanda</givenName>
+          <surName>Arcila Pérez</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Sebastián</givenName>
+          <surName>Cuadrado Rios</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Andrés</givenName>
+          <surName>Vargas Arboleda</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>A. L.</givenName>
+          <surName>Pulido González</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>C.</givenName>
+          <surName>Peña Vergara</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>M. A.</givenName>
+          <surName>Bedoya Cañón</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Julio</givenName>
+          <surName>Chacón Pacheco</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>María M.</givenName>
+          <surName>Torres Martínez</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Carlos</givenName>
+          <surName>Aya Cuervsalio</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Luisa Alejandra</givenName>
+          <surName>Ruano Meneses</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Elkin A.</givenName>
+          <surName>Noguera-Urbano</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Diana Marcela</givenName>
+          <surName>Ramírez Castellanos</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Carlos H.</givenName>
+          <surName>Cáceres Martínez</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Andrés</givenName>
+          <surName>Arias Alzate</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>María Camila</givenName>
+          <surName>Latorre Cárdenas</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Javier Enrique</givenName>
+          <surName>Colmenares Pinzón</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Andrés</givenName>
+          <surName>Hernández Pinsón</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Ángela María</givenName>
+          <surName>Villamizar Ramírez</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Camilo Ernesto</givenName>
+          <surName>Angarita Yanes</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Isabel Cristina</givenName>
+          <surName>Ävila</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Diego Rolando</givenName>
+          <surName>Gutiérrez Sanabria</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Gina</givenName>
+          <surName>Olarte</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Juan Camilo</givenName>
+          <surName>Cepeda Duque</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Federico</givenName>
+          <surName>Mosquera Guerra</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Fernando</givenName>
+          <surName>Trujillo</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Dalila</givenName>
+          <surName>Caicedo Herrera</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Manuela</givenName>
+          <surName>Montoya Marín</surName>
+        </individualName>
+        <role>metadataProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Héctor Andrés</givenName>
+          <surName>Hernández Pinsón</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>María Camila</givenName>
+          <surName>Dueñas Cuellar</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Diego Alejandro</givenName>
+          <surName>Esquivel Melo</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Paula Catalina</givenName>
+          <surName>Pinilla Cortés</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Diana Katherine</givenName>
+          <surName>Camelo Pinzón</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Juan David</givenName>
+          <surName>Sánchez Londoño</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Keiner</givenName>
+          <surName>Meza Tilvez</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Angie N.</givenName>
+          <surName>Tinoco Sotomayor</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>María Alejandra</givenName>
+          <surName>Hurtado Materón</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Hugo A.</givenName>
+          <surName>Vides-Avilez</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Angélica</givenName>
+          <surName>Trujillo Acosta</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Carlos A.</givenName>
+          <surName>Delgado V.</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Mariana</givenName>
+          <surName>Vélez Orozco</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>J. Sebastian</givenName>
+          <surName>Jiménez Alvarado</surName>
+        </individualName>
+        <role>editor</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Camilo</givenName>
+          <surName>Paredes</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Alicia Alexandra</givenName>
+          <surName>Pineda Guerrero</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Sebastian</givenName>
+          <surName>Botero Cañola</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Cesar</givenName>
+          <surName>Rojano Bolaño</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Kevin</givenName>
+          <surName>González Gutiérrez</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Grupo de Investigación Manejo</givenName>
+          <surName>y Gestión de la Vida Silvestre del Chocó</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Dennis</givenName>
+          <surName>Castillo Figueroa</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Juan Felipe</givenName>
+          <surName>Albarracín Caro</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Sebastián</givenName>
+          <surName>Mejía Correa</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Carolina</givenName>
+          <surName>López Castañeda</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Danny</givenName>
+          <surName>Zurc</surName>
+        </individualName>
+        <role>metadataProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Javier</givenName>
+          <surName>Racero Casarrubia</surName>
+        </individualName>
+        <role>editor</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Laín Efrén</givenName>
+          <surName>Pardo Vargas</surName>
+        </individualName>
+        <role>editor</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Pablo César</givenName>
+          <surName>Hernández</surName>
+        </individualName>
+        <role>editor</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Iván Mauricio</givenName>
+          <surName>Vela</surName>
+        </individualName>
+        <role>editor</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Mario</givenName>
+          <surName>Santana</surName>
+        </individualName>
+        <role>contentProvider</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Gina</givenName>
+          <surName>Gómez</surName>
+        </individualName>
+        <role>editor</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Gina Marcela</givenName>
+          <surName>Quintero Gil</surName>
+        </individualName>
+        <role>editor</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Angela</givenName>
+          <surName>Hurtado</surName>
+        </individualName>
+        <role>editor</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Leonardo</givenName>
+          <surName>Buitrago</surName>
+        </individualName>
+              <userId directory="http://scholar.google.com/citations?user=">wFLEyrQAAAAJ&amp;hl</userId>
+        <role>processor</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Bibiana</givenName>
+          <surName>Gómez</surName>
+        </individualName>
+        <role>editor</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Darwin M.</givenName>
+          <surName>Morales-Martínez</surName>
+        </individualName>
+        <role>author</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Miguel E.</givenName>
+          <surName>Rodríguez-Posada</surName>
+        </individualName>
+        <role>author</role>
+      </personnel>
+      <abstract>
+        <para>La creación de esta lista se realizó a través del convenio dec No. 17-16-062-022CE A través del convenio realizado entre el Instituto Alexander von Humboldt (IAvH) y la Sociedad Colombiana de Mastozoología (SCMas), se suman esfuerzos técnicos, administrativos y financieros, para apoyar la realización de listas de especies de mamíferos, publicar registros biológicos y documentar información sobre mamíferos de Colombia, como parte del fortalecimiento de colecciones biológicas.
+
+
+La actualización de la lista se realizo bajo el siguiente proyecto CESP: CESP2018-011
+This work is carried out thanks to the support of different research sources and participation in national and / or regional projects, as described below: -GBIF CESP 2018-011 Project will build on the experiences from the GBIF nodes of Argentina, Brazil, Colombia, Chile, Ecuador, Guatemala, Mexico, Peru and Uruguay with the associations CyTeD and Andino NET, to conduct a regional project defining consensus procedures for the development of national species checklists. A focus will be placed on achieving compatibility of databases with existing ones. Aiming a for a broad coverage of users, outcomes will be published in Spanish, Portuguese and English.
+
+Este trabajo se realiza gracias al apoyo de diferentes fuentes de investigación y la participación en proyectos nacionales y/o regionales, como se describe a continuación: -El proyecto GBIF CESP 2018-011 se basa en las experiencias de los nodos GBIF de Argentina, Brasil, Colombia, Chile, Ecuador, Guatemala, México, Perú y Uruguay y con las asociaciones CyTeD y Andino NET, para llevar a cabo un proyecto regional que defina procedimientos de consenso para el desarrollo de listas de verificación de especies nacionales. Se centrará en lograr la compatibilidad de las bases de datos con las existentes. Con el objetivo de una amplia cobertura de usuarios, los resultados se publicarán en español, portugués e inglés.</para>
+      </abstract>
+      <funding>
+        <para>Convenio de Cooperación No. 17-16-062-022CE
+Instituto Alexander von Humboldt y la Sociedad Colombiana de Mastozoología
+
+GBIF CESP Programe – CESP 2018-011: Increasing capacities to develop National Species Checklists in the Latin America and the Caribbean Region (https://www.gbif.org/project/1tM8FmqzlyGMmUiIMaaSsI/increasing-capacities-to-develop-national-species-checklists-in-the-latin-america-and-the-caribbean-region).</para>
+      </funding>
+      <studyAreaDescription>
+        <descriptor name="generic"
+                    citableClassificationSystem="false">
+          <descriptorValue>Colombia</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+      <designDescription>
+        <description>
+          <para>Se realiza un Plan Metodológico el cual tuvo como escenario a las Universidades y a las colecciones mastozoológicas que estas instituciones albergan. Como actores fundamentales al proceso, se consideraron a los curadores de las colecciones, a ONG´s y a los socios que pertenecen a la SCMas. Como publicador de los datos se consideró al SIB. Con estos actores se realizó la compilación de registros de especies de mamíferos que ocurren en Colombia, y la documentación de 50 de estas especies.
+
+Por otro lado, se realiza un Plan Técnico y Metodológico para la creación de una lista de referencia de especies de mamíferos. Para la construcción de ésta se siguen los últimos listados de especies de mamíferos publicados por Ramírez-Chaves et al. (2016) y, Solari et al. (2013). Así, se reúnen los nombres de las especies que ocurren en Colombia. 
+
+Finalmente, para la publicación de la información, se empleó el estándar Darwin Core –DwC-, y se cargaron los datos al Sistema de Información en Biodiversidad de Colombia (SiB) y al catálogo de especies de esta misma iniciativa.</para>
+        </description>
+      </designDescription>
+  </project>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+          <dateStamp>2017-09-06T11:40:50.719+00:00</dateStamp>
+          <hierarchyLevel>dataset</hierarchyLevel>
+            <citation identifier="https://doi.org/10.15472/kl1whs">Ramírez-Chaves H E, Leuro Robles N G, Castaño Rivera A, Morales-Martínez D M, Suárez Castro A F, Rodríguez-Posada M E, Zurc D, Concha Osbahr D C, Trujillo A, Noguera Urbano E A, Pantoja Peña G E, González Maya J F, Pérez Torres J, Mantilla Meluk H, López Castañeda C, Velásquez Valencia A, Zárrate Charry D (2024): Mamíferos de Colombia. v1.14. Sociedad Colombiana de Mastozoología. Dataset/Checklist. https://doi.org/10.15472/kl1whs</citation>
+          <bibliography>
+                <citation>Armenteras, D., y Eraso, N. R. 2014. Dinámicas y causas de deforestación en bosques de latinoamérica: una revisión desde 1990. Colombia Forestal, 17(2), 233-246.</citation>
+                <citation>Chapman, A. D. 2005. Principles and methods of data cleaning. Report for the Global Biodiversity Information Facility 2004. Copenhagen: GBIF.</citation>
+                <citation>Etter, A., Andrade, A., Amaya, P. y Arévalo P. A. 2016. Lista Roja de Ecosistemas Terrestres de Colombia. En Gómez, M.F., Moreno, L.A., Andrade, G.I. y Rueda, C. (Eds.). Biodiversidad 2015. Estado y tendencias de la biodiversidad continental de Colombia. Instituto Alexander von Humboldt. Bogotá, D.C., Colombia.</citation>
+                <citation identifier="http://revistas.utch.edu.co/ojs5/index.php/Bioneotropical/article/view/576/html_19">Mantilla-Meluk y Montegro O. 2016. A new species of Lonchorina (Chiroptera: Phyllostomidae) from Chiribiquete, Colombia Guayana. Revista Biodiversidad Neotropical. 6(2). Publicación online. http://revistas.utch.edu.co/ojs5/index.php/Bioneotropical/article/view/576/html_19</citation>
+                <citation>Ramírez-Chaves H., Suárez-Castro F., González-Maya J.F. 2016. Cambios recientes a la lista de mamíferos de Colombia. Mammalogy Notes. 3(1): 1-20.</citation>
+                <citation>Solari S, Muñoz-Saba Y, Rodríguez-Mahecha JV, Defler T, Ramírez-Chaves HE, Trujillo F. Riqueza, endemismo y conservación de los mamíferos de Colombia. 2013. Mastozoología Neotropical. 20(2):301-365.</citation>
+                <citation>Suárez-Castro, A. F., Ramírez-Chaves, H. E. (2014). Adiciones y cambios a la lista de mamíferos de Colombia: 500 especies registradas para el territorio nacional. Management, 99(1-2), 223-235.</citation>
+                <citation identifier="https://doi.org/10.1371/journal.pone.0029715">Wieczorek J., Bloom D., Guralnick R., Blum S., Döring M., Giovanni R., Robertson T., Vieglais D. 2012. Darwin Core: An evolving community-developed biodiversity data standard. PloS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715</citation>
+                <citation>Zermoglio, P. F., Guralnick, R. P., y Wieczorek, J. R. 2016. A standardized reference data set for vertebrate taxon name resolution. PloS One. 11(1), e0146894.</citation>
+                <citation identifier="https://repositorio.ucaldas.edu.co/handle/ucaldas/17184">Castaño Rivera, A. (2021). La distribución de los mamíferos en los departamentos de Colombia: Generación de una línea base para la toma de decisiones por parte de las corporaciones regionales.</citation>
+                <citation>Rodríguez-Mahecha, J. V., Hernández-Camacho, J., Defler, R., Alberico, M., Mast, R., Mittermeier, R., Cadena, A. (1995). Mamíferos colombianos: sus nombres comunes e indígenas. Occasional Papers in Coservation Biology 3. Conservation International. Santafé de Bogotá, 56 pp.</citation>
+                <citation>Voss, R.S. 2024. A New Genus for the “Alfaroi Group” of Oryzomys Sensu Lato (Rodentia: Cricetidae: Sigmodontinae). American Museum Novitates, 2024(4030): 1-12. https://doi.org/10.1206/4030.1</citation>
+                <citation>Ramírez-Chaves, H.E., Mazepa, G.O., Morales-Martínez, D.M., Suárez-Castro, A.F., Colmenares-Pinzón, J. E., Pulido-Santacruz, P. &amp; Noguera-Urbano, E.A. 2025. A review of the Quichua porcupine Coendou quichua complex (Rodentia: Erethizontidae) with the description of a new species from Colombia. Journal of Mammalogy.  https://doi.org/10.1093/jmammal/gyae140</citation>
+                <citation>de Oliveira, T. G., Fox-Rosales, L. A., Ramírez-Fernández, J. D., Cepeda-Duque, J. C., Zug, R., Sanchez-Lalinde, C., ... &amp; Rodrigues, F. H. (2024). Ecological modeling, biogeography, and phenotypic analyses setting the tiger cats’ hyperdimensional niches reveal a new species. Scientific Reports, 14(1), 2395.</citation>
+                <citation>Barthe, M., Rancilhac, L., Arteaga, M.C., Feijó, A.,  Tilak, M-K:, Justy, F., Loughry, W.J., McDonough, C.M.,  de Thoisy, B., Catzeflis, F.,  Billet, G., Hautier, L.,  Benoit, N., Delsuc, F. 2024. Exon Capture Museomics Deciphers the Nine-Banded Armadillo Species Complex and Identifies a New Species Endemic to the Guiana Shield, Systematic Biology, 2024;, syae027, https://doi.org/10.1093/sysbio/syae027</citation>
+                <citation>Barrio, J., Gutiérrez, E.E. and D&apos;Elía, G. 2024-03-01. The first living cervid species described in the 21st century and revalidation of Pudella (Artiodactyla). Journal of Mammalogy 105(3):577-588</citation>
+                <citation>McGowen, M. R., Tsagkogeorga, G., Álvarez-Carretero, S., dos Reis, M., Struebig, M., Deaville, R., ... &amp; Rossiter, S. J. (2020). Phylogenomic resolution of the cetacean tree of life using target sequence capture. Systematic Biology, 69(3), 479-501.</citation>
+          </bibliography>
+            <physical>
+              <objectName>Lista de cotejo de los mamíferos (Mammalia) de Colombia: Cambios taxonómicos en un país altamente diverso</objectName>
+              <characterEncoding>UTF-8</characterEncoding>
+              <dataFormat>
+                <externallyDefinedFormat>
+                  <formatName>PDF</formatName>
+                </externallyDefinedFormat>
+              </dataFormat>
+              <distribution>
+                <online>
+                  <url function="download">https://mammalogynotes.org/ojs/index.php/mn/article/view/253</url>
+                </online>
+              </distribution>
+            </physical>
+          <resourceLogoUrl>https://raw.githubusercontent.com/SIB-Colombia/logos/main/socio-SiB-scmas.png</resourceLogoUrl>
+              <collection>
+                  <parentCollectionIdentifier>MLS</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 133</collectionIdentifier>
+                <collectionName>Colecciones Zoológicas - Museo de La Salle- Bogotá</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>CTUA</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 167</collectionIdentifier>
+                <collectionName>Colección Teriológica Universidad de Antioquia</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>UAM</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 152</collectionIdentifier>
+                <collectionName>Museo de Historia Natural de la Universidad de la Amazonia</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>MHN-UC</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 44</collectionIdentifier>
+                <collectionName>Museo de Historia Natural Universidad del Cauca</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>MUD</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 46</collectionIdentifier>
+                <collectionName>Museo de Historia Natural Universidad Distrital</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>ColTer-Chocó</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 195</collectionIdentifier>
+                <collectionName>Colección Teriológica Grupo de Manejo de Fauna Silvestre Chocuana de la Universidad Tecnológica del Chocó</collectionName>
+              </collection>
+              <collection>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 255</collectionIdentifier>
+                <collectionName>Colección de Mamíferos - Universidad de Los Llanos</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>UV</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 9</collectionIdentifier>
+                <collectionName>Vertebrados Mamíferos - Universidad del Valle</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>UIS</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 42</collectionIdentifier>
+                <collectionName>Museo de Historia Natural - Universidad de Santander</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>ICN-MHN</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 5</collectionIdentifier>
+                <collectionName>Colección de Mamíferos Alberto Cadena - Universidad Nacional de Colombia</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>MPUJ</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 12</collectionIdentifier>
+                <collectionName>Museo Javeriano de Historia Natural</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>CMUQ</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 234</collectionIdentifier>
+                <collectionName>Colección Mamíferos Universidad del Quindío</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>MHN-UCa</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 86</collectionIdentifier>
+                <collectionName>Colección de Vertebrados e Invertebrados - Universidad de Caldas</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>PSO-Z</parentCollectionIdentifier>
+                  <collectionIdentifier>Registro Nacional de Colecciones Biológicas: 41</collectionIdentifier>
+                <collectionName>Colección Zoológica - Universidad de Nariño</collectionName>
+              </collection>
+                <specimenPreservationMethod>alcohol</specimenPreservationMethod>
+                <specimenPreservationMethod>mounted</specimenPreservationMethod>
+                <specimenPreservationMethod>other</specimenPreservationMethod>
+          <dc:replaces>e8b9ed9b-f715-4eac-ae24-772fbf40d7ae/v1.18.xml</dc:replaces>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
